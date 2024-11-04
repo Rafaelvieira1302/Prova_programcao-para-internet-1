@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 1.6; /*Espasamento das linhas*/
+    color: white;
+    background-color: rgb(59, 64, 97);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact-form {
+    background-color: rgb(66, 81, 172);
+    padding: 20px;
+    border: 1px solid rgb(66, 81, 172);
+    border-radius: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 99%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: rgb(59, 64, 97);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}

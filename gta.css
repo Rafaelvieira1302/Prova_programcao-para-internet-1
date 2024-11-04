@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    background-color: rgb(59, 64, 97);
+    color: white;
+}
+.box{
+    display: flex;
+    align-items: start;
+}
+.conteiner{
+    position:relative;
+    margin: 10px;
+}
+.botao{
+    background-color: rgb(66, 81, 172);
+    color: white;
+}
+.informacao{
+    color: white;
+
+}
+#h3{
+    text-align: center;
+}
+.requi{
+    color: white;
+    display: grid;
+    text-align: start;
+    gap: 10px;
+    grid-template-columns: auto auto;
+}

@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    color: white;
+}
+body{
+    margin: 0px;
+}
+header{
+    height: 120px;
+    background-color: black;
+}
+.baner{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+.botao{
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: black;
+}
+.container{
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+.box {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(59, 64, 97);
+    height: 150px;
+    width: 150px;
+}
+button{
+    background-color: rgb(66, 81, 172);
+    border-color: rgb(66, 81, 172);
+    border-radius: 5%;
+}
+main{
+    background-color: rgb(59, 64, 97);
+}
